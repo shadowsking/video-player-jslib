@@ -1,4 +1,17 @@
+.video-player{
+  width: 800px;
+  height: 600px;
+}
+
+.video-player-panel{
+  background-color: black;
+}
+
 .play-button{
   border-style: none;
   cursor: pointer;
+}
+
+body{
+  background-color: gray;
 }
