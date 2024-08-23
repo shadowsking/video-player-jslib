@@ -1,4 +1,4 @@
-.video-player{
+.video-player {
   width: 800px;
   height: 600px;
   box-shadow: 0 0 30px black;
@@ -6,15 +6,19 @@
   flex-direction: column;
 }
 
-.js-video-container{
+.js-video-container {
   flex-grow: 1;
 }
 
-.video-player-panel{
+.video-player-panel {
   background-color: black;
 }
 
 .video-player-panel .panel-buttons {
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
   border-style: none;
   cursor: pointer;
   color: white;
