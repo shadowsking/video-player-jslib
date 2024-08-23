@@ -1,6 +1,7 @@
 .video-player{
   width: 800px;
   height: 600px;
+  box-shadow: 0 0 30px black;
 }
 
 .js-video-container{
@@ -17,8 +18,4 @@
   cursor: pointer;
   color: white;
   background-color: transparent;
-}
-
-body{
-  background-color: gray;
 }
