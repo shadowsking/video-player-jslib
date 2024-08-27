@@ -18,11 +18,19 @@
 }
 
 .video-player-panel .panel-buttons {
-  height: 44px;
-  width: 34px;
+  height: 46px;
+  width: 33px;
   font-size: 20px;
   border-style: none;
   cursor: pointer;
   color: white;
   background-color: transparent;
+}
+
+.video-player-panel .panel-play-time {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  color: white;
+  font-family: 'Roboto', sans-serif;
 }
