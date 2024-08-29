@@ -27,6 +27,10 @@
   background-color: transparent;
 }
 
+.video-player-panel .panel-buttons:focus {
+  outline: none;
+}
+
 .video-player-panel .panel-play-time {
   display: flex;
   flex-grow: 1;
