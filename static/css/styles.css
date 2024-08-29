@@ -46,6 +46,17 @@
   margin: 0 9px 0 9px;
 }
 
-.video-player-panel .panel-play-time .viewing-progress-slider {
-  background-color: red;
+.video-player-panel .panel-play-time .viewing-progressbar .viewing-progress-slider {
+  background-color: #f8104d;
+}
+
+.video-player-panel .panel-play-time .viewing-progressbar .dot {
+  height: 8px;
+  width: 8px;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 50%;
+  background-color: #f8104d;
+  margin-left: -5px;
+  margin-top: -5px;
 }
