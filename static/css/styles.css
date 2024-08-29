@@ -18,7 +18,7 @@
 }
 
 .video-player-panel .panel-buttons {
-  height: 46px;
+  height: 42px;
   width: 33px;
   font-size: 20px;
   border-style: none;
@@ -30,7 +30,22 @@
 .video-player-panel .panel-play-time {
   display: flex;
   flex-grow: 1;
+  align-items: center;
   justify-content: space-between;
   color: white;
   font-family: 'Roboto', sans-serif;
+  padding: 0 4px 0 4px;
+}
+
+.video-player-panel .panel-play-time .viewing-progressbar {
+  display: flex;
+  flex-grow: 1;
+  background-color: gray;
+  border-radius: 20px;
+  height: 4px;
+  margin: 0 9px 0 9px;
+}
+
+.video-player-panel .panel-play-time .viewing-progress-slider {
+  background-color: red;
 }
